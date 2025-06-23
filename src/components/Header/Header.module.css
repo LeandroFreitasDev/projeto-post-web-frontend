@@ -1,0 +1,41 @@
+.header {
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    min-height: 80px;
+  }
+  
+  .logo {
+    height: 120px;
+    object-fit: contain;
+  }
+  
+  .links {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .link {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--tertiary-color);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 4px;
+    background: transparent;
+    cursor: pointer;
+    border: none;
+    transition: color 0.3s ease;
+  }
+  
+  .link:hover {
+    color: var(--secundary-color);
+  }
+  
