@@ -1,13 +1,13 @@
 import React from 'react'
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
-import EventosPublicos from '../../components/EventosPublicos'
+import Cadastro from '../../components/Cadastro'
 
-export default function HomePage() {
+export default function CadastroPage() {
   return (
     <div>
         <Header />
-        <EventosPublicos />
+        <Cadastro />
         <Footer />
     </div>
   )

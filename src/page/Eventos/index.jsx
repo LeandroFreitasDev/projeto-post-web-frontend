@@ -1,12 +1,14 @@
 import React from 'react'
 import Header from '../../components/Header'
-import Footer from '../../components'
+import Footer from '../../components/Footer'
+import Eventos from '../../components/Eventos'
+
 
 export default function EventosPage() {
   return (
     <div>
         <Header />
-        <h1>Eventos</h1>
+        <Eventos />
         <Footer />
     </div>
   )
